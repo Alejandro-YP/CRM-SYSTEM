@@ -60,6 +60,11 @@ public class Cliente {
     public void consultarCliente() {
         System.out.println("=== Información del Cliente ===");
         System.out.println("ID: " + id);
+        System.out.println("Empresa: " + nombreEmpresa);
+        System.out.println("Telefono: " + telefono);
+        System.out.println("Correo: " + correo);
+        System.out.println("Fecha de Registro: " + fechaRegistro);
+        
         
     }
     
