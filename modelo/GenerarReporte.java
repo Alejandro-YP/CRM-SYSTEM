@@ -6,13 +6,13 @@ public class GenerarReporte {
     private int numeroOportunidades;
     private double montoTotal;
     
-    // Constructor
+
     public GenerarReporte() {
         this.numeroOportunidades = 0;
         this.montoTotal = 0.0;
     }
     
-    // Getter y Setter
+
     public int getNumeroOportunidades() {
         return numeroOportunidades;
     }
@@ -29,7 +29,7 @@ public class GenerarReporte {
         this.montoTotal = montoTotal;
     }
     
-    // Método generarReporte
+   
     public void generarReporte(List<Oportunidad> oportunidades) {
         System.out.println("=== GENERANDO REPORTE ===");
         
