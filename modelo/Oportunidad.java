@@ -70,7 +70,7 @@ public class Oportunidad {
         if (cliente != null) {
             System.out.println("Cliente: " + cliente.getNombreEmpresa());
         }
-        System.out.println("==================");
+       
     }
 
 
