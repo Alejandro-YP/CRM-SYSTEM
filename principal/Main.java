@@ -62,5 +62,22 @@ public class Main {
         int idBuscado = scanner.nextInt();  
         Cliente clienteEncontrado = null;
         
+         for (Cliente c : clientes) {
+            if (c.getId() == idBuscado) {  
+                clienteEncontrado = c;
+                break;
+            }
+        }
         
+        
+        if (clienteEncontrado != null) {
+            System.out.println("\n✓ Cliente encontrado:");
+            clienteEncontrado.consultarCliente();
+        } else {
+            System.out.println("\n✗ No se encontró ningún cliente con ID: " + idBuscado);
+        }
+        
+        scanner.close();  
+    }
+}
        
