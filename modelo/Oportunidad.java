@@ -16,8 +16,7 @@ public class Oportunidad {
         this.estado = estado;
     }
 
-    
-    public int getId() {
+    úblic int getid(){
         return id;
     }
 
@@ -48,6 +47,7 @@ public class Oportunidad {
     public void setEstado(String estado) {
         this.estado = estado;
     }
+    
 
     public void cambiarEstado(){
         System.out.println("Cambiar estado de la oportunidad");
